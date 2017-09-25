@@ -1,3 +1,7 @@
 sudo: required
 dist: trusty
-script: df -h
+script: 
+ - df -h
+ - pwd
+ - df -h $HOME
+ - df -h .
